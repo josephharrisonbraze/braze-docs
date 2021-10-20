@@ -9,13 +9,13 @@ channel:
   
 ---
 
-# Migrating From News Feed to Content Cards
+# Migrating from news feed to content cards
 
 Moving from News Feed to Content Cards takes time, but it is an easy adoption! You cannot automatically migrate content from News Feed to Content Cards - you must integrate Content Cards from scratch. However, with the new flexibility of Content Cards, we don't think you'll miss it or mind.
 
 Reach out to your Braze account manager for more details.
 
-## Features and Functionality
+## Features and functionality
 
 Content Cards offers many capabilities that are not supported by Braze's current News Feed, such as additional delivery options like action-based, API delivery, and enhanced analytics like conversion tracking.
 

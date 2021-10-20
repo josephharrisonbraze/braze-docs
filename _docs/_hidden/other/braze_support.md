@@ -6,7 +6,7 @@ permalink: /braze_support/
 page_type: reference
 ---
 
-# Braze Support
+# Braze support
 
 To contact the Braze support team, navigate to the Braze dashboard. In the dashboard, select __Get Help__ in the upper right corner of the page, and then __Braze Support__.
 

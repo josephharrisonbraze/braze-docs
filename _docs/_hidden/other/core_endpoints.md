@@ -4,7 +4,7 @@ permalink: "/core_endpoints/"
 hidden: true
 ---
 
-# Braze Core API Endpoints
+# Braze core API endpoints
 
 Braze's API core endpoints are specific endpoints in Braze's REST API that have an allowed downtime in accordance with a Braze account's Service Level Agreement ("SLA"). For more information, please refer to your SLA documentation or reach out to your account manager. 
 

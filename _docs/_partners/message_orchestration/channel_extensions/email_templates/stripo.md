@@ -20,7 +20,7 @@ Requirement   | Source | Description
 --------------|--------| -----
 Braze API Key | [Braze Platform](https://dashboard.braze.com/sign_in) | The API key must have the *Template's* permission enabled before use.
 
-# Integration Usage
+# Integration usage
 
 The export functionality from Stripo to Braze will allow users to send the HTML as a new template within the Braze platform.
 

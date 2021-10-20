@@ -38,7 +38,7 @@ noindex: true
 
 ---
 
-# Page Title
+# Page title
 
 {% include video.html id="XY5uXoKIvFY" align="right" %}
 
@@ -47,7 +47,7 @@ noindex: true
 > Please make sure to tell them they should watch the video to learn more.
 
 
-## What is X Concept
+## What is x concept
 
 Include:
 - This concept's origins, if relevant.
@@ -55,12 +55,12 @@ Include:
 - How this concept is used and applied at Braze.
 - What are the benefits of this concept?
 
-## Topic 1 Regarding this Concept
+## Topic 1 regarding this concept
 
 This should explain a specific aspect of this concept, like how a specific type of Canvas Step is used in combination with a channel. If you would like to see an example of how to do this thing in the wild, please check out [this link to that tutorial]({{site.baseurl}}/home/templates/tutorial_video.md).
 
 
-### Code Sample
+### Code sample
 
 If you're explaining a technical concept, please note that here and show a code sample.
 
@@ -87,6 +87,6 @@ Make sure you define parameters or elements that users might have to adjust from
 | My First Heading | We recommend putting this in caps. This is also optional. |
 {: .reset-td-br-1 .reset-td-br-2}
 
-## Topic 2 Regarding this Concept
+## Topic 2 regarding this concept
 
 In the event that a second topic is added, be sure to distinguish it from the first concept immediately. Then, go into explaining the concept. You should feel free to add diagrams!

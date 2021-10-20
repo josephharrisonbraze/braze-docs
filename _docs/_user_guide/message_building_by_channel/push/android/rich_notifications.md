@@ -12,7 +12,7 @@ tool:
   
 ---
 
-# Create Rich Notifications for Android
+# Create rich notifications for android
 
 > Rich Notifications allow for more customization in your push notifications by adding additional content beyond just copy. Android notifications have included images in push notifications for some time now, messaged as an ‘Expanded Notification Image’.
 
@@ -32,22 +32,22 @@ We recommend doing a send test to multiple Android devices to make sure your ric
 {% endalert %}
 
 
-## Setting Up Your Android Rich Notification
+## Setting up your android rich notification
 
-### Step 1: Create Campaign
+### Step 1: create campaign
 Follow the [campaign steps][3] you normally do to compose a push notification for Android. You will be using the same composer that you use for setting up push notifications that do not contain rich content.
 
-### Step 2: Add Captioning
+### Step 2: add captioning
 Add the **Summary Text/Image Caption** that you'd like to display above the image in the notification.
 
 ![Add Android Summary Text][9]
 
-### Step 3: Add Media
+### Step 3: add media
 Add your image in the **Expanded Notification Image** field in the composer of the message. Images can be uploaded directly through the dashboard or by specifying a content URL that is hosted elsewhere.
 
 ![Add Android Image][8]
 
-### Step 4: Continue Creating Your Campaign
+### Step 4: continue creating your campaign
 Once your rich notification content is uploaded to the dashboard, you can simply continue [scheduling your campaign][6] the way you always do.
 
 [3]: {{site.baseurl}}/user_guide/message_building_by_channel/push/creating_a_push_message/#creating-a-push-message

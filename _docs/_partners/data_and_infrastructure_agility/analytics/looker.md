@@ -22,7 +22,7 @@ Braze's Looker Blocks can reduce the burden of modeling data and enable marketer
 
 [See how Braze uses Currents.][1]
 
-## Available Looker Blocks
+## Available looker blocks
 
 Our Looker Blocks help Braze customers quickly access a view of granular data we offer via [Currents][5]. Our blocks provide pre-made visualizations and modeling for Currents data so Braze customers can easily implement analytic patterns like retention, evaluate message deliverability, take a more detailed look at user behavior, and more.
 
@@ -34,7 +34,7 @@ Braze currently has two Blocks available: the Message Engagement Analytics and t
 | __User Behavior Analytics Block__ | This block includes data around custom events, purchases, sessions, location events, and uninstalls. | [Learn more about this Looker Block](https://looker.com/platform/blocks/source/user-behavior-analytics-by-braze?latest&utm_campaign=7012R000000fxfC&utm_source=other&utm_medium=email&utm_content=brazedirectreferral&utm_term=braze_direct) from Looker. | See the code on [Github](https://github.com/llooker/braze_retention_block). |
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3 .reset-td-br-4}
 
-### Implementing the Looker Blocks
+### Implementing the looker blocks
 
 To implement the Looker Blocks, follow the instructions in the README files of the Github code.
 
@@ -51,7 +51,7 @@ Both integrations assume that your [initial Braze integration][4], as well as yo
 Be aware of different naming conventions! Custom names can cause incongruences in data unless you take care to change all corresponding names. If you've customized any View/table or model names, rename each in the LookML to the name you've selected.
 {% endalert %}
 
-## Flagging Users within Braze
+## Flagging users within Braze
 
 __Looker Actions__ allows you to flag users within Braze via the REST API Endpoint from a Looker Look. __Actions__ requires that a dimension is tagged with `braze_id`. The Action will append the flagged value to the users `looker_export` custom attribute.
 
@@ -59,7 +59,7 @@ __Looker Actions__ allows you to flag users within Braze via the REST API Endpoi
 Only existing users will be flagged. You cannot use pivoted Looks when flagging data in Braze.
 {% endalert %}
 
-## Update User Attributes
+## Update user attributes
 
 Optional, any attributes can also be set by using a tag of `braze[]` with the name of the attribute between the `[]` ie if you want a custom attribute of `User Segment` to be sent, then the tag would be `braze[User Segment]`.
 - Note the following:
@@ -70,23 +70,23 @@ Optional, any attributes can also be set by using a tag of `braze[]` with the na
   - The full tag will be within quotes, so it should look like `tags: ["braze[first_name]"]`. Other tags can also be assigned but will be ignored.
   - Additional information can be found on [Github](https://github.com/looker/actions/tree/master/src/actions/braze)
 
-##  Setup Instructions
+## Setup instructions
 
 [You can also find these instructions and sample code on Github.](https://github.com/looker/actions/tree/master/src/actions/braze)
 
-### Step 1: Create a REST API Key
+### Step 1: create a REST API key
 
 Create a REST API Key with access to `user.track` from the [Braze Developer Console][8].
 
 ![User/Track API][11]
 
-### Step 2: Set Up a Braze Looker Action
+### Step 2: set up a Braze looker action
 
 Setup the Braze Looker Action with the API Key, and [Braze REST Endpoint][9].
 
 ![Braze Looker Action][12]
 
-### Step 3: Set Up Looker Develop
+### Step 3: set up looker develop
 
 Within Looker Develop, select the appropriate views. Add `braze_id` to the dimensions tag.
 
@@ -99,7 +99,7 @@ dimension: external_id {
 }
 ```
 
-### Step 4: Send the Looker Action
+### Step 4: send the looker action
 
 1. Within a Look with a `braze_id` dimension selected, click the Settings gear ( <i class="fas fa-cog"></i> ) on the upper right, and select `Send...`.
 2. Select the custom Braze Action.
@@ -114,7 +114,7 @@ If the export was correctly sent, then `looker_export` should appear in the user
 
 ![Custom Attribute in Braze from Looker][14]
 
-### Segment Users by Looker Export
+### Segment users by looker export
 
 To target the flagged users, a Braze Segments can be created that matches the flagged value.
 
@@ -126,7 +126,7 @@ To target the flagged users, a Braze Segments can be created that matches the fl
 - Currently, the API is limited to 100,000 rows sent.
 - The Final count of a user's flag may be lower due to duplicates or non-users.
 
-### Sample Outgoing API
+### Sample outgoing API
 
 _Sample of the Outgoing API which will be sent to the [/user/track/][10] endpoint._
 

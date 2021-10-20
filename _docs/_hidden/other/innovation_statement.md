@@ -11,7 +11,7 @@ permalink: /innovation_statement/
 Warning! Don't make any changes to this document without approval from the legal department.
 -->
 
-# Braze Innovation Statement
+# Braze innovation statement
 
 {% tabs %}
 {% tab English %}

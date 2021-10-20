@@ -36,7 +36,7 @@ Once the Prediction model is built, users in the Prediction Audience will be ass
 
 Updating the risk scores of the Prediction Audience can be done with a [frequency you choose]({{site.baseurl}}/user_guide/predictive_suite/predictive_churn/creating_a_churn_prediction/#step-4-choose-the-update-frequency-for-churn-predictions). This way, you can reach out to users who are at risk of churning before they actually do and prevent it from happening in the first place. Using up to three active Predictions, you can leverage Predictive Churn to tailor individual models to help prevent churn within specific segments of your users that you deem to be the most valuable.
 
-## Access Predictive Churn
+## Access predictive churn
 
 The Predictions page is accessible from the left navigation bar on the Braze dashboard. For full access, contact your account manager. Prior to purchasing this feature, it is available in Preview mode. This will allow you to see a Demo Churn Prediction with synthetic data as well as create one Churn Prediction model at a time. This Prediction will be created based on your actual user data, but it will not allow you to target users for messaging according to Churn Risk. It will also not update regularly after creation.
 

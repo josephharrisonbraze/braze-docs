@@ -6,34 +6,34 @@ hide_toc: true
 
 ![Braze at SXSW][1]{: width:"100%"}
 
-# Braze @ SXSW - We need your help!
+# Braze @ sxsw - we need your help!
 
 Want to see Braze take the stage at SXSW? We do, and we need your help to make it happen! Before you vote, you have to [create a SXSW account](https://id.sxsw.com/sign_up) (it only takes a minute!). You can also see some [FAQs](#faqs) below.
 
 Braze submitted five speaking/panel opportunities — listed below. Vote for the one you think is most interesting! _You can vote now through August 23rd._
 
-## [Email for the Future](https://panelpicker.sxsw.com/vote/103089)
+## [Email for the future](https://panelpicker.sxsw.com/vote/103089)
 _Panelists:_
 - __Kevin Wang, VP Product, Braze__
 - Ben Morss, Developer Advocate, Google
 - Janie Clarke, Senior Product Manager, Indeed
 - Seth Weisfeld, Product Manager, Growth Channels, Pinterest
 
-## [The Future of Financial Services and Payments](https://panelpicker.sxsw.com/vote/102655)
+## [The future of financial services and payments](https://panelpicker.sxsw.com/vote/102655)
 _Panelists:_
 - __Bill Magnuson, CEO, Braze__
 - Dale Sperling, CMO, Stash
 
 _Moderator: Anthony Ha, Reporter, TechCrunch_
 
-## [GDPR, CCPA, and What’s Next for Privacy](http://panelpicker.sxsw.com/vote/102654)
+## [GDPR, ccpa, and what’s next for privacy](http://panelpicker.sxsw.com/vote/102654)
 _Panelists:_
 - __Susan Wiseman, SVP and General Counsel, Braze__
 - Hannah Poteat, Senior Privacy Counsel, Twilio
 
 _Moderator: Lauren Johnson, Reporter, Business Insider_
 
-## [Creative + Tech = Award-Winning Whopper Detour Campaign](https://panelpicker.sxsw.com/vote/94708)
+## [Creative + tech = award-winning whopper detour campaign](https://panelpicker.sxsw.com/vote/94708)
 _Panelists:_
 - __Myles Kleeger, President and Chief Customer Officer, Braze__
 - Mada Seghete, Co-founder, Branch
@@ -41,7 +41,7 @@ _Panelists:_
 
 _Moderator: Kerry Flynn, Reporter, Digiday_
 
-## [How to Level Up Through Customer Engagement](http://panelpicker.sxsw.com/vote/102666)
+## [How to level up through customer engagement](http://panelpicker.sxsw.com/vote/102666)
 _Panelists:_
 - __Sara Spivey, CMO, Braze__
 - Steve Fowler, SVP of Marketing, FoxNext

@@ -4,7 +4,7 @@ permalink: /view_pii/
 hidden: true
 ---
 
-# View PII
+# View pii
 
 This will cover a new permission that is only accessible for a few select customers.  You can read about the existing team permission capabilities [here]({{site.baseurl}}/user_guide/administrative/manage_your_braze_users/user_permissions/#available-limited-and-team-role-permissions).
 
@@ -13,7 +13,7 @@ This will cover a new permission that is only accessible for a few select custom
 By default, all admins will have their 'view pii' permission enabled.  This means they can see email addresses and phone numbers throughout the dashboard.
 When this permission is disabled, developers are not able to see the email address or phone number throughout the dashboard.
 
-## Limited Areas
+## Limited areas
 
 |Dashboard Navigation| Result| Notes|
 |--------------------|-------|------|

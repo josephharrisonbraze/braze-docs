@@ -4,7 +4,7 @@ permalink: "/nested_custom_attribute_support/"
 hidden: true
 ---
 
-# Nested Custom Attributes
+# Nested custom attributes
 
 You can use nested custom attributes to send objects as a new data type for custom attributes. This nested data allows you to create segments using information from a custom attribute object, and personalize your messages using a custom attribute object and Liquid.
 
@@ -29,9 +29,9 @@ Support for nested custom attributes is currently in early access. Please contac
 - Objects have a maximum size of 50KB.
 - Key names and string values have a size limit of 255 characters.
 
-## Usage Examples
+## Usage examples
 
-### API Request Body
+### API request body
 
 {% tabs local %}
 {% tab Create %}
@@ -112,7 +112,7 @@ To delete a custom attribute object, send a POST to `users/track` with the custo
 {% endtab %}
 {% endtabs %}
 
-### Liquid Templating
+### Liquid templating
 
 The Liquid templating example below shows how to reference the custom attribute object properties saved from the above API request and use them in your messaging.
 
@@ -136,7 +136,7 @@ When working with nested custom attributes segmentation, you'll have access to a
 
 ![NCA Segment Comparator][7]
 
-## Data Points
+## Data points
 
 Any key that is updated consumes a data point, including the initialization of a parent custom attribute object. For example, this object initialized in the user profile counts as nine (9) data points:
 

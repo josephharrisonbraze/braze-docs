@@ -15,7 +15,7 @@ tool:
 description: "This article outlines details about the GET Link Alias endpoint, which allows you to fetch the aliases set on a campaign message variant."
 ---
 {% api %}
-# Campaign Link Alias Endpoint
+# Campaign link alias endpoint
 {% apimethod get %}
 /campaigns/url_info/details
 {% endapimethod %}
@@ -24,7 +24,7 @@ Use this endpoint to list the link alias set in a particular campaign message va
 
 {% apiref postman %}  {% endapiref %}
 
-## Request Parameters
+## Request parameters
 
 | Parameter | Required | Data Type | Description |
 |---|---|---|---|
@@ -33,7 +33,7 @@ Use this endpoint to list the link alias set in a particular campaign message va
 | `includes_link_id` | Optional | String | A specific link identifier (as assigned by Braze) or `null`. This is used to filter the results by a specific `link_id`. |
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3 .reset-td-br-4}
 
-## Example Request
+## Example request
 ```
 curl --location --request GET 'https://rest.iad-01.braze.com/campaigns/url_info/details?campaign_id=4615a404-b2c2-421e-9a04-2233bb3ec4f9&message_variation_id=0ea708fe-36b4-43f7-9f5c-a0650ea2a7a0&includes_link_id=014tk4e0kg97' \
 --header 'Authorization: Bearer YOUR-API-KEY-HERE'
@@ -59,7 +59,7 @@ Authorization: Bearer YOUR-REST-API-KEY
 }
 ```
 
-### Possible Errors
+### Possible errors
 
 - `Missing/Invalid Campaign ID` - The Campaign API ID must be an API identifier. You can find this using the [Campaigns List Endpoint]({{site.baseurl}}/api/endpoints/export/campaigns/get_campaigns/) or by logging into the dashboard.
 

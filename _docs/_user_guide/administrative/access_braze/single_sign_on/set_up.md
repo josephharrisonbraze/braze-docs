@@ -7,7 +7,7 @@ description: "This article will walk you through how to enable SAML single sign-
 
 ---
 
-# Service Provider (SP) Initiated Login
+# Service provider (sp) initiated login
 
 > This article will walk you through how to enable SAML single sign-on for your Braze account.
 
@@ -22,9 +22,9 @@ Upon setup, you will be asked to provide a Sign-On URL and an Assertion Consumer
 | **Entity ID** | `braze_dashboard` |
 {: .reset-td-br-1 .reset-td-br-2}
 
-## SAML SSO Set Up
+## SAML SSO set up
 
-### Configure Your Identity Provider
+### Configure your identity provider
 
 First, you must set up Braze as a Service Provider (SP) in your Identity Provider (IdP) with the information below.
 
@@ -68,7 +68,7 @@ When you save your Security Settings and log out, you should now be able to sign
 
 ![Login Page with SSO]({% image_buster /assets/img/sso1.png %}){: style="max-width:40%;"}
 
-### Create and Enable a Braze API Key for IdP Login (Optional)
+### Create and enable a Braze API key for idp login (optional)
 
 To enable IdP initiated login, you will first need to create an API Key in `Developer Console` > `API Settings`.
 
@@ -76,7 +76,7 @@ To enable IdP initiated login, you will first need to create an API Key in `Deve
 
 Input the generated API Key as the `RelayState` parameter within your IdP, which will be used to identify which company the user is trying to log into.
 
-## SSO Behavior
+## SSO behavior
 
 Members who opt to use SSO will __no longer be able to use their password as they did prior__. Users who continue to use their password will be able to unless restricted by the settings below. 
 

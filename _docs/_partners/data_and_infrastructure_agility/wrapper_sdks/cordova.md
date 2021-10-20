@@ -9,7 +9,7 @@ platform: cordova
 
 ---
 
-# About Cordova
+# About cordova
 
 > Cordova enables developers to create, test, debug, and scale app development.
 

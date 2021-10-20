@@ -7,7 +7,7 @@ description: "This reference article covers how to disable open pixel and click 
 
 ---
 
-# Open Pixel and Click Tracking Overview
+# Open pixel and click tracking overview
 
 [Open pixel tracking][open_tracking] and click tracking can now be disabled per user profile. This flexibility helps customers support regional privacy laws, where an individual user profile might indicate they no longer want to be tracked.
 

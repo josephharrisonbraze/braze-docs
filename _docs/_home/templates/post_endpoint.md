@@ -20,7 +20,7 @@ noindex: true
 #ATTENTION: remove noindex and this alert from template
 ---
 {% api %}
-# [Endpoint Name]
+# [Endpoint name]
 
 {% apimethod post %}
 /email/spam/remove
@@ -31,7 +31,7 @@ This is the description of the endpoint. For example: "This endpoint allows you 
 {% apiref swagger %}https://www.braze.com/docs/api/interactive/#/Email%20Sync/RemovingSpamListEmailExample {% endapiref %}
 {% apiref postman %}https://documenter.getpostman.com/view/4689407/SVYrsdsG?version=latest#1614a82f-510a-4c37-95a6-8207a125e487 {% endapiref %}
 
-## Request Body
+## Request body
 
 This is where you can give more information about your endpoint request body, including an example of what one would look like.
 
@@ -46,7 +46,7 @@ Authorization: Bearer YOUR-REST-API-KEY
 }
 ```
 
-### Parameter Details
+### Parameter details
 
 This is a place for you to describe additional details for the parameters above.
 
@@ -55,7 +55,7 @@ This is a place for you to describe additional details for the parameters above.
 | `email` | Yes | String or Array | String email address to modify, or an Array of up to 50 email addresses to modify. |
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3 .reset-td-br-4}
 
-## Example Unsubscribe CURL
+## Example unsubscribe curl
 
 The following example CURL demonstrates how to unsubscribe a user from receiving email via the Braze APIs:
 

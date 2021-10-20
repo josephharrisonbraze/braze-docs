@@ -21,7 +21,7 @@ noindex: true
 #ATTENTION: remove noindex and this alert from template
 ---
 {% api %}
-# Query or List [Item Endpoint "Gets"]
+# Query or list [item endpoint "gets"]
 
 {% apimethod get %}
 /email/hard_bounces
@@ -31,7 +31,7 @@ This is the description of the endpoint. For example: "Users' email subscription
 
 {% apiref postman %}https://documenter.getpostman.com/view/4689407/SVYrsdsG?version=latest#1614a82f-510a-4c37-95a6-8207a125e487 {% endapiref %}
 
-## Query Parameters
+## Query parameters
 
 You must provide an `end_date`, as well as either an `email` or a `start_date` .
 
@@ -46,7 +46,7 @@ You must provide an `end_date`, as well as either an `email` or a `start_date` .
 
 If your date range has more than `limit` number of hard bounces, you will need to make multiple API calls, each time increasing the `offset` until a call returns either fewer than `limit` or zero results.
 
-### Sample Response
+### Sample response
 
 Entries are listed in descending order.
 

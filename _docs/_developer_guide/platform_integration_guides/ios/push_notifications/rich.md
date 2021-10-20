@@ -9,21 +9,21 @@ channel:
 
 ---
 
-# iOS 10 Rich Notifications
+# iOS 10 rich notifications
 
 iOS 10 introduces the ability to send push notifications with images, gifs, and video. To enable this functionality, clients must create a `Service Extension`, a new type of extension that enables modification of a push payload before it is displayed.
 
-## Creating A Service Extension
+## Creating a service extension
 To create a [Notification Service Extension][23], navigate to `File > New > Target` and select `Notification Service Extension`.
 
 ![Adding a Service Extension][26]
 
 Ensure that `Embed In Application` is set to embed the extension in your application.
 
-## Setting Up The Service Extension
+## Setting up the service extension
 A `Notification Service Extension` is its own binary that is bundled with your app. As such, it must be set up in the [Apple Developer Portal][27] with its own App ID and Provisioning Profile.
 
-### Configuring The Service Extension To Work With Braze
+### Configuring the service extension to work with Braze
 Braze sends down an attachment payload in the APNs payload under the `ab` key that we use to configure, download and display rich content:
 
 For example:
@@ -68,7 +68,7 @@ We provide sample code that you can copy into your `Notification Service Extensi
 
 You can write the Service Extension in either Objective-C or Swift.
 
-## Creating A Rich Notification In Your Dashboard
+## Creating a rich notification in your dashboard
 
 To create a rich notification in your Braze dashboard, simple create an iOS push and attach an image or gif, or provide a url that hosts an image, gif, or video.  Note that assets are downloaded on the receipt of push notifications, so that if you are hosting your own content you should plan for large, synchronous spikes in requests.
 

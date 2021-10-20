@@ -7,13 +7,13 @@ description: "This reference article covers some common troubleshooting scenario
 
 ---
 
-# Export Troubleshooting
+# Export troubleshooting
 
 Here are some error messages you may encounter while exporting data via CSV or API from Braze.
 
-## Common Errors
+## Common errors
 
-#### ‘AccessDenied’ 
+#### ‘AccessDenied’
 
 If you are using __your own S3 bucket__, this could happen because:
 - The expected object is no longer in the S3 bucket; check with your engineers.

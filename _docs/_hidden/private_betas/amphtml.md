@@ -4,7 +4,7 @@ permalink: /amphtml/
 hidden: true
 ---
 
-# AMP for Email
+# AMP for email
 
 With [AMP for Email](https://amp.dev/about/email), you can add interactive elements to your emails and elevate your communications with your customers to a whole new level.
 
@@ -23,17 +23,17 @@ AMP Email Elements | Check out the Essentials tab in the [Components](#component
 At this time, only Gmail provides support for AMP for Email. [Register with Google here](https://developers.google.com/gmail/ampemail/register).
 {% endalert %}
 
-### Enabling Gmail Account
+### Enabling gmail account
 
 Go into your Gmail Settings and select `Enable Dynamic Content`.
 
 ![Dynamic Content][1]
 
-## API Usage
+## API usage
 
 You can utilize AMP for Email using our API. When you use any of [our Messaging Endpoints]({{site.baseurl}}/api/endpoints/messaging/) to send an email, add `amp_body` as an object specification, as shown below.
 
-### Email Object Specification
+### Email object specification
 
 ```json
 {
@@ -54,7 +54,7 @@ You can utilize AMP for Email using our API. When you use any of [our Messaging 
 }
 ```
 
-## Writing Your AMP Email
+## Writing your amp email
 
 Construct your AMP email using the [components](#components) below, then use [our API](#api-usage) to send. Be sure to use `amp_body` for your AMP HTML! You can also check out [AMP's tutorial](https://amp.dev/documentation/guides-and-tutorials/start/create_email?format=email) or [sample code](https://gist.github.com/CrystalOnScript/988c3f0a2eb406da27e9d9bf13a8bf73) to see how the final product should look. You can also checkout AMP's [full email components library here](https://amp.dev/documentation/components/?format=email/).
 
@@ -128,7 +128,7 @@ Similar to Liquid, AMP supports a scripting language for more advanced use cases
 By wrapping your content around the Raw tag, the Braze processing engine will correctly ignore any content between the raw tags and send out the Mustache variable your team needs.
 
 
-### Metrics and Analytics
+### Metrics and analytics
 
 | Metric | Details |
 |---|---|
@@ -140,7 +140,7 @@ By wrapping your content around the Raw tag, the Braze processing engine will co
 
 - Please note that total clicks and unique clicks do not account for any click that happened from an AMP message (HTML and Plaintext only). AMP specific clicks are attributed to the `amp_click` metric.
 
-### Testing & Troubleshooting
+### Testing & troubleshooting
 
 Before your send your AMP email, we recommend that you test according to [Gmail's guidelines here](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
 

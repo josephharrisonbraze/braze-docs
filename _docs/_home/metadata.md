@@ -3,7 +3,7 @@ nav_title: Docs Metadata
 page_order: 0
 noindex: true
 ---
-# Docs Metadata
+# Docs metadata
 
 > This article walks through the options for adding metadata to Docs pages. We optimize our search based on page type and other bits of metadata, including: [yaml tags](#yaml-tags) and [page types](#page-types) (based on [templates]({{site.baseurl}}/home/templates/)).
 
@@ -13,7 +13,7 @@ The [content tags](#content-tags) listed on this page are currently a work in pr
 
 {% endalert %}
 
-## YAML Tags
+## YAML tags
 
 These are independent. If you need to see additional optional YAML content based on "Layout", check out the [templates]({{site.baseurl}}/home/templates/) and layouts (TBD) breakdowns.
 
@@ -24,7 +24,7 @@ A note on capitalization...
 Please leave all tag values (except for the content for the `description` tag) lowercase. This will ensure consistency. We may change this in the future, but for now, lowercase is better and easier to mass search and replace in the event of a formatting update.
 {% endalert %}
 
-### Configuration Tags
+### Configuration tags
 
 These will automatically change the layout or function of a page.
 
@@ -40,7 +40,7 @@ These will automatically change the layout or function of a page.
 | `noindex` | Determines whether the article will show in Algolia and Google Searches. Defaults to `false` unless you have the `hidden` YAML tag set as `true`. | No. | Boolean. | `true` or `false`. | 
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3  .reset-td-br-4}
 
-### Content Tags
+### Content tags
 These will assist in external and internal SEO, informing page content and formatting, and other content-based structure.
 
 | YAML Content Tag | Description  | Required? | Exclusive or can multiple be used? | Data Type | Available Values |
@@ -52,7 +52,7 @@ These will assist in external and internal SEO, informing page content and forma
 | `tool` | Notes which engagement tools (Canvas, campaigns, etc.) the article is associated with. | Yes. | Multiple values can be used. | String. | Any of Braze's  tools: `dashboard`, `docs`, `canvas`, `campaigns`, `segments`, `templates`, `media`, `location`, `currents`, `reports`. |
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3  .reset-td-br-4}
 
-### Multiple Tag Values
+### Multiple tag values
 Sometimes, you may find that a content tag for a page could be categorized with multiple values (as in, an article might talk about both Canvas and campaigns, or cover a custom integration for both Android and iOS).
 
 You can format that like this: 
@@ -69,7 +69,7 @@ key:
 Please note that there can only be a single `page_type` value for page. A page cannot be both a `reference` and a `glossary`. The different page types exist to narrow the scope and purpose of each article. 
 {% endalert %}
 
-### Sample YAML
+### Sample yaml
 
 The top of every markdown page should begin with a section of yaml to define the page.
 
@@ -87,7 +87,7 @@ tool:
 ```
 
 
-## Page Types
+## Page types
 
 To apply these, be sure your yaml parameter for page types is: `page_type:`
 

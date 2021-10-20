@@ -18,13 +18,13 @@ You can define geofences on the Braze dashboard and trigger campaigns in real-ti
 
 Geofences are managed in the **Locations** page in the **Engagement** section. Geofences are organized into geofence sets - a group of geofences that can be used to segment or engage users throughout the platform. Example geofence sets include `All Northeast Regional Stores` or `September Events`. A given geofence set may only contain up to 10,000 geofences.
 
-## Creating Geofence Sets Manually
+## Creating geofence sets manually
 
 ![Geofence Location Main Screen][1]
 
 Once you have created a geofence set, you can manually add geofences by drawing them on the map. We recommend creating geofences with a radius of at least 100 meters for optimal functionality.
 
-## Creating Geofence Sets via Bulk Upload
+## Creating geofence sets via bulk upload
 
 Geofences may be uploaded in bulk as a GeoJSON object of type `FeatureCollection`. Each individual geofence is a `Point` geometry type in the feature collection. The properties for each feature require a `"radius"` key, and an optional `"name"` key for each geofence.
 
@@ -62,7 +62,7 @@ The sample below represents the correct GeoJSON for specifying two geofences: on
 
 >  The maximum geofence radius that may be uploaded is 100000 meters (100km/62mi).
 
-## Using Geofence Events
+## Using geofence events
 
 Once geofences have been configured, you can use them to enhance and enrich how you communicate with your users.
 

@@ -46,17 +46,17 @@ This layout is for Quick Start guides, Product walkthroughs, and Troubleshooting
 Tutorials:
 A general walkthrough of an instructional concept. Should contain PRACTICAL KNOWLEDGE. Focuses on a single topic (like, how to create a campaign, how to create a canvas, etc.) Goal or Task-Oriented Article that walks STEP BY STEP through solving a SPECIFIC issue (How to target specific users, how to segment based on location, etc.).
 {% endcomment %}
-# How to Title This Video Tutorial
+# How to title this video tutorial
 
 > This article will walk you through doing XYZ. By the end of this tutorial, you should be able to A, B, and C!
 
-## Step 1: Do the first thing
+## Step 1: do the first thing
 
 This is what you'll be accomplishing in this step. Here is how you can reproduce it.
 
 Make sure you [link to other references as you need them]({{site.baseurl}}/home/templates/reference_video/).
 
-### Code Sample
+### Code sample
 
 If you're explaining a technical concept, please note that here and show a code sample.
 
@@ -84,7 +84,7 @@ Make sure you define parameters or elements that users might have to adjust from
 {: .reset-td-br-1 .reset-td-br-2}
 
 
-## Step 2: Do the next thing
+## Step 2: do the next thing
 
 This is what you'll be accomplishing in this step. Here is how you can reproduce it.
 
@@ -100,25 +100,25 @@ Please note that this sub-step will NOT appear in the TOC under the video on the
 Make sure to tell your users important things as they come up. Don't wait until the end! Your users will be following along - people don't read instructions _before_ they start the tutorial.
 {% endalert %}
 
-## Step 3: Do the last thing
+## Step 3: do the last thing
 
 The last step in a tutorial should give your reader some expectation for their result. Feel free to even show an image of the final result.
 
-## Next Steps
+## Next steps
 
 Congratulations! You've completed this tutorial, troubleshooting article, or solution! This means that you should have:
 1. Thing you should have learned about,
 2. Task you should have completed, and
 3. Thing you should be ready to do now or next.
 
-### Related Articles
+### Related articles
 
 If you want to learn more about things that were discussed in the article, checkout:
 - [Related Article 1](#solution-1): Description of why it's helpful.
 - [Related Article 2](#solution-2): Description of why it's helpful.
 - [Related Article 3](#solution-3): Description of why it's helpful.
 
-### Still Lost?
+### Still lost?
 
 If this article didn't help, leave feedback below or [open a support ticket][support]!
 

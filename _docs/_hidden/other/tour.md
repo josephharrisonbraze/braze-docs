@@ -9,7 +9,7 @@ Welcome to the new and improved Braze Docs! Along with our recent rebranding and
 
 Let's jump right in and take a look!
 
-## All of Your Braze Docs in One Place
+## All of your Braze docs in one place
 
 Welcome to our unified Docs site - your new knowledge base for all things related to the Braze platform.
 
@@ -25,7 +25,7 @@ Learn more about the new sections of our Docs site below.
 | [Help][10] | This provides additional content not typically found in the guides that will up level and improve your experience and is for anyone and everyone! |
 {: .reset-td-br-1 .reset-td-br-2}
 
-## Find What You Need
+## Find what you need
 
 Our new ways to navigate the site are absolutely top notch!
 
@@ -37,13 +37,13 @@ Our new ways to navigate the site are absolutely top notch!
 * __Navigation Filter__: Know what you're looking for? Use the Navigation Filter to search specific topics mentioned in the left navigation.
 * __Next and Previous Articles Buttons__: Use these buttons at the bottom of each page to go to the following or preceding articles in a category.
 
-## Help Yourself
+## Help yourself
 
 Our new [Help][10] section has everything from Help Articles and a Troubleshooting Guide to Release Notes and Best Practices.
 
 ![help][3]
 
-## Help Us Help You
+## Help us help you
 
 Every page with content offers an opportunity to give feedback.
 
@@ -51,7 +51,7 @@ Every page with content offers an opportunity to give feedback.
 
 Your comments are sent directly to our Documentation Team for review! Let us know if our content helped you or just give general feedback. Every piece of feedback helps us adjust and improve our Docs!
 
-# Get Going!
+# Get going!
 
 This is the end of the tour! Not sure where you want to go first? How about [Documentation Home][6]?
 

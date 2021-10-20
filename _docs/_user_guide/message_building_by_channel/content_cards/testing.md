@@ -22,13 +22,13 @@ In __Preview__, the view of your message might not be identical to its actual re
 
 To send a test to either [Content Test Groups]({{site.baseurl}}/user_guide/administrative/app_settings/developer_console/internal_groups_tab/#content-test-groups) or individual users, push must be enabled on your test devices before sending.
 
-### Preview Message As User
+### Preview message as user
 
 You can also preview messages from the Test tab as though you were a user. You can select a specific user, a random user, or create a custom user.
 
 ![Custom_User_Preview][3]
 
-### Test Checklist
+### Test checklist
 
 - Do the images and media show up and act as expected?
 - Does the Liquid function as expected? Have you accounted for a [default attribute value]({{site.baseurl}}/user_guide/personalization_and_dynamic_content/liquid/conditional_logic/#accounting-for-null-attribute-values) in the event that the Liquid returns no information?

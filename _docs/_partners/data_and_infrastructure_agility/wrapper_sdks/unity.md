@@ -8,7 +8,7 @@ page_type: partner
 platform: unity
 
 ---
-# About Unity
+# About unity
 
 Unity, an app development platform specializing in gaming, allows developers to create, test, and debug apps across multiple platforms.
 

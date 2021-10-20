@@ -7,7 +7,7 @@ page_type: partner
 platform: react native
 
 ---
-# About React Native
+# About react native
 
 > React Native is a JavaScript library developed by Facebook and Instagram. It helps engineers repurpose existing code across each operating system to build apps for iOS and Android.
 

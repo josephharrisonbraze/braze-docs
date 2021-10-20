@@ -9,7 +9,7 @@ tool: Canvas
 
 ---
 
-# Message Step for Canvas
+# Message step for canvas
 
 Message Steps allow you to add a standalone message where you want in your Canvas flow.
 
@@ -17,7 +17,7 @@ Message Steps allow you to add a standalone message where you want in your Canva
 Support for Canvas Message Steps is currently in early access. Please contact your Braze account manager if you are interested in participating in the early access.
 {% endalert %}
 
-## Create a Message Step
+## Create a message step
 
 ![Canvas Message Step][1]{: style="float:right;max-width:19%;margin-left:15px;"}
 

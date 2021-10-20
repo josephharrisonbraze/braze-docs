@@ -15,7 +15,7 @@ tool:
 description: "This article outlines details about the GET Link Alias endpoint, which allows you to fetch the aliases set on a Canvas Email step."
 ---
 {% api %}
-# Canvas Link Alias Endpoint
+# Canvas link alias endpoint
 {% apimethod get %}
 /canvas/url_info/details
 {% endapimethod %}
@@ -24,7 +24,7 @@ Use this endpoint to list the link alias set in a particular Email Canvas step.
 
 {% apiref postman %}  {% endapiref %}
 
-## Request Parameters
+## Request parameters
 
 | Parameter | Required | Data Type | Description |
 |---|---|---|---|
@@ -33,7 +33,7 @@ Use this endpoint to list the link alias set in a particular Email Canvas step.
 | `includes_link_id` | Optional | String | A specific link identifier (as assigned by Braze) or `null`. This is used to filter the results by a specific `link_id`. |
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3 }
 
-## Example Request
+## Example request
 
 ```
 curl --location --request GET 'https://rest.iad-01.braze.com/canvas/url_info/details?campaign_id=4615a404-b2c2-421e-9a04-2233bb3ec4f9&message_variation_id=0ea708fe-36b4-43f7-9f5c-a0650ea2a7a0&includes_link_id=014tk4e0kg97' \
@@ -60,7 +60,7 @@ Authorization: Bearer YOUR-REST-API-KEY
 }
 ```
 
-### Possible Errors
+### Possible errors
 
 - `Missing/Invalid Canvas ID` - The Canvas API ID must be an API identifier. You can find this using the [Canvas List Endpoint]({{site.baseurl}}/api/endpoints/export/canvas/get_canvases/) or by logging into the dashboard.
 

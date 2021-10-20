@@ -3,7 +3,7 @@ nav_title: Support & Success Services Handbook
 permalink: /handbooks/
 ---
 
-# Support & Success Services Handbook
+# Support & success services handbook
 <br>
 
 [Support & Success Services Handbook FY'21][2]

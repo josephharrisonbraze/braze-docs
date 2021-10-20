@@ -7,22 +7,22 @@ description: "This reference article covers proper event naming conventions and 
 
 ---
 
-# Event Naming Conventions
+# Event naming conventions
 Ensuring consistency in your event and attribute taxonomy during your Braze integration will keep your data clean and usable by new and existing users of the Braze platform. This helps to avoid issues later on that can result in triggering a campaign to the wrong audience or discrepancies in results from using the wrong event.
 
-## Best Practices
+## Best practices
 - Keep your naming convention clear.
 - Consistent casing and formatting of event names.
 - Avoid giving events similar names.
 - Avoid long event attribute strings which will be truncated or cut off in the Braze dashboard.
 
-## Naming Conventions
+## Naming conventions
 
-### Use Event Groups
+### Use event groups
 
 __Use groups to differentiate parts of your product to name events.__ By categorizing your product into groups any user can clearly understand what the event is referring to and what it does.
 
-### Event Naming Structure
+### Event naming structure
 
 The most common naming structure is `group_noun_action`. Events should all be lower case to avoid casing instrumentation errors and identifying properties.
 

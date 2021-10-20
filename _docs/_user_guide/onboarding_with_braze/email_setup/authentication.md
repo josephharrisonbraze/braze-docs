@@ -8,21 +8,21 @@ channel: email
 
 ---
 
-# Email Authentication
+# Email authentication
 
 > Email authentication is a collection of techniques that equip your emails with verifiable information about its origin.
 
 Proper authentication is crucial for ISPs to recognize you as a sender of desirable emails. It's how the ISPs know it's you and how they know to deliver your mail immediately. Without authentication, your outreach is presumed fraudulent.
 
-## Methods of Authentication
+## Methods of authentication
 
-### Sender Policy Framework (SPF)
+### Sender policy framework (spf)
 
 This method confirms that your Braze email sending IP address is authorized to send mail on your behalf. SPF is your basic authentication and is accomplished by publishing the text records in DNS settings. The receiving server will check the DNS records and determine whether it is authentic or not. This method is designed to validate the email sender.
 
 Your SPF record will be set up when Braze configures your IPs and domains - beyond adding the DNS records we give to you, no further action is required.
 
-### Domain Keys Identified Mail (DKIM)
+### Domain keys identified mail (dkim)
 
 This method confirms that your Braze email sending domain is authorized to send mail on your behalf. This method is designed to validate the authenticity of the sender AND ensure the integrity of the message is preserved. It also uses individual cryptographic digital signatures so ISPs can be sure the mail they're delivering is the same as the mail you sent.
 
@@ -30,7 +30,7 @@ Braze signs the mail with your secret private key. The ISPs verify the signature
 
 Your DKIM record will be set up when Braze configures your IPs and domains - beyond adding the DNS records we give to you, no further action is required.
 
-### Domain-based Message Authentication, Reporting, and Conformance (DMARC)
+### Domain-based message authentication, reporting, and conformance (dmarc)
 
 This method takes the SPF and DKIM authentication protocols one step further.
 

@@ -8,7 +8,7 @@ search_tag: Partner
 
 ---
 
-# Taxi for Email
+# Taxi for email
 
 [Taxi For Email](http://taxiforemail.com/) is an online email marketing tool that encourages teams to easily collaborate on email campaigns. It allows teams to produce accurate and on-brand emails at a large scale in less time.
 

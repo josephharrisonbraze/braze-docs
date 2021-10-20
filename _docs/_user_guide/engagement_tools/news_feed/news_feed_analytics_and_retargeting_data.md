@@ -20,11 +20,11 @@ By scrolling down the page, you can see a larger breakdown of your clicks and im
 
 ![NewsFeed Analytics Bottom][20]
 
-# Retargeting Data
+# Retargeting data
 
 You can leverage Braze's data on which users are interacting with your News Feed via segment filters that let you retarget specific behaviors.
 
-## Feed Impression Filter
+## Feed impression filter
 
 Braze automatically tracks when users view the feed and how many times they have viewed it. There are two filters available:
 
@@ -37,11 +37,11 @@ Braze automatically tracks when users view the feed and how many times they have
 
 Consider, using these filters in tandem or with other filters to create an even more targeted call to action.
 
-## Clicked Card Filter
+## Clicked card filter
 
 You can create segments based on how users have interacted with specific cards in the feed. The filter is in the Retargeting section of the filter list and called Clicked Card.
 
-## Has Clicked Card Filter
+## Has clicked card filter
 
 - Works well to retarget users who have clicked on a card, but not followed through on your call to action.
 - It is also useful to retarget users with related content that may of interest to them.

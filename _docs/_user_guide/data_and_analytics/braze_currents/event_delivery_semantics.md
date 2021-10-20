@@ -8,7 +8,7 @@ tool: Currents
 
 ---
 
-# Event Delivery Semantics
+# Event delivery semantics
 
 > This article outlines how Currents manages flat file event data we send to Data Warehouse partners.
 
@@ -21,7 +21,7 @@ Please note that this content **only applies to the flat file event data we send
 {% endalert %}
 
 
-## At-Least-Once Delivery
+## At-Least-Once delivery
 
 As a high-throughput system, Currents guarantees "at-least-once" delivery of events, meaning that duplicate events can occasionally be written to your storage bucket. This can happen when events are reprocessed from our queue for any reason.
 
@@ -65,7 +65,7 @@ _Can't see the code because of the scroll bar? See how to fix that [here]({{site
 File naming conventions may change in the future, Braze recommends searching all keys in your bucket that have a prefix of &lt;your-bucket-prefix&gt;.
 {% endalert %}
 
-### Avro Write Threshold
+### Avro write threshold
 
 Data files will be written to your storage bucket once you hit _any of the set thresholds_, whichever happens first:
 
@@ -80,11 +80,11 @@ Data files will be written to your storage bucket once you hit _any of the set t
 Currents will never write empty files.
 {% endalert %}
 
-### Avro Schema Changes
+### Avro schema changes
 
 From time to time, Braze may make changes to the Avro schema when fields are added, changed, or removed. For our purposes here, there are two types of changes: breaking and non-breaking. In all cases, the `<schema-id>` will be advanced to indicate the schema was updated.
 
-#### Non-breaking Changes
+#### Non-breaking changes
 
 When a field is added to the Avro schema, we consider this a non-breaking change. Added fields will always be "optional" Avro fields (i.e. with a default value of `null`), so they will "match" older schemas according to the [Avro schema resolution spec](http://avro.apache.org/docs/current/spec.html#schema+resolution). These additions should not affect existing ETL processes as the field will simply be ignored until it is added to your ETL process. 
 
@@ -94,7 +94,7 @@ We recommend that your ETL setup is explicit about the fields it processes to av
 
 While we will strive to give advance warning in the case of all changes, we may include non-breaking changes to the schema at any time.
 
-#### Breaking Changes
+#### Breaking changes
 
 When a field is removed from or changed in the Avro schema, we consider this a breaking change. Breaking changes may require modifications to existing ETL processes as fields that were in use may no longer be recorded as expected.
 

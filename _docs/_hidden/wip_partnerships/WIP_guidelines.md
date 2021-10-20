@@ -6,7 +6,7 @@ hidden: true
 page_type: reference
 ---
 
-# Partnership Documentation
+# Partnership documentation
 
 Welcome Braze Partners and thank you for contributing to our customer knowledge base. Creating and adding partner pages to the Braze docs repository can be quick and simple with the right tools and setup.
 
@@ -22,7 +22,7 @@ Partnership Documentation Overview
 Note that this partnership guide is for NEW Braze partners that __do not have existing documentation__ already hosted on our site. If you are an existing partner updating your documentation, navigate to your partner page located in: `braze-docs` -> `_docs` -> `_partners` and update your pages as you normally would. 
 {% endalert %}
 
-## Step 1: Set up Your Local Environment {#setup_env}
+## Step 1: set up your local environment {#setup_env}
 
 To contribute to Braze docs, you must have a Github account with which you can commit changes and edits. 
 
@@ -33,7 +33,7 @@ We recommend first __[forking](https://help.github.com/en/github/getting-started
 
 After setting up your local environment, make sure to sign our [CLA](https://www.braze.com/docs/cla) (Contribution License Agreement), _this step is required_.
 
-## Step 2: Create and Add Content to Your Page {#create_page}
+## Step 2: create and add content to your page {#create_page}
 
 To create your partner page, open the braze-docs repository and navigate to the `wip_partnerships` folder within the repo. <br>This folder can be found by following the file path: `braze-docs` -> `_docs` -> `_hidden` -> `wip_partnerships`.
 
@@ -41,13 +41,13 @@ Here, you will find a [Partnership Template]({{site.baseurl}}/partners/your_part
 
 > Your file pathing should now look like this: `braze-docs` -> `_docs` -> `_hidden` -> `wip_partnerships` -> `partner_name` (folder) -> `partner.md`.
 
-### Useful Resources
+### Useful resources
 
 Useful links to reference as you write:
 - [Braze Writing Style Guide and Best Practices](https://docs.google.com/document/d/e/2PACX-1vTtzHpcihaXTTYD85LoKIvYBvpCQFLr8n0BDKRDRAMEz_DnZdHJJINKL24r4JXkRUui24pl_DVxbu2T/pub#h.wstt3flbts5k): A quick skim of our writing style guide and best practices help align your documentation with our voice.<br>
 - [Braze Docs Styling Test Page](https://www.braze.com/docs/home/styling_test_page/) and [Special Formatting](https://github.com/braze-inc/braze-docs/wiki/Special-Formatting): See something cool in our docs that you want to include in your page? Want to know how to add charts, tabs, downloadable files, and more? Check out our Styling test page and Special Formatting pages to get started.
 
-### Template Components
+### Template components
 
 Your [Partnership Template]({{site.baseurl}}/partners/your_partner_name/) is composed of three main components, the metadata, the content, and the references. 
 
@@ -77,13 +77,13 @@ Note that we require you to fill out all metadata fields __except__ `page_order`
 This information is the meat of the document. Here you cover the prerequisites, integration steps, use cases, etc..
 For more information on what to include in the content, check out our Partnership [Template]({{site.baseurl}}/partners/your_partner_name/) that breaks down what should be included.
 ```
-# [Partner Name]
+# [Partner name]
 
 > Welcome to the Partner Page Template! Here, you'll find everything you need to create your partner page. In this first section, you should describe the partner in the first paragraph in a sentence or two. Also, include a link to that partner's main site.
 
 In the second paragraph, you should explore and explain the relationship between Braze and this partner. This paragraph should explain how Braze and this partner work together to tighten the bond between the Braze User and their customer. Explain the "elevation" that occurs when a Braze User integrates with or leverages this partner and their services.
 
-## Requirements or Prerequisites
+## Requirements or prerequisites
 
 This section is all about what you need to integrate with the partner and start using their services. The best way to deliver this information is with a quick instructional paragraph that describes any non-technical important details of "need to know" information, like whether or not your integration will be subject to additional security checks or clearances. Then, you should use a chart to describe the technical requirements of the integration.
 
@@ -96,7 +96,7 @@ The requirements listed below are typical requirements you might need from Braze
 | Braze API Key | Braze | You will need to create a new API Key.<br><br>This can be created in the __Developer Console -> API Settings -> Create New API Key__ with __users.track__ permissions. | This description should tell you what to do with the Braze API Key. |
 | Braze REST Endpoint | Braze | [Braze REST Endpoint List][1] | Your REST Endpoint URL. Your endpoint will depend on the Braze URL for your instance. |
 
-## [Type of Integration] Integration
+## [Type of integration] integration
 
 This is where you break down the integration into steps. Do not just write endless paragraphs - these are technical documents... Continued in the Partnership Template.
 ```
@@ -110,7 +110,7 @@ This last section is located at the very end of your document. Here you will lis
 {% endtab %}
 {% endtabs %}
 
-## Step 3: Image, Link and Code Snippet Formatting {#image_links}
+## Step 3: image, link and code snippet formatting {#image_links}
 
 Links and images are a necessary part of any integration document. They help supplement your instructions with helpful pictures, communicate information to users that might be hard or unnecessary to explain in words. 
 
@@ -166,7 +166,7 @@ Partner integrations often leverage our Liquid capabilities within the dashboard
 {&#37; endraw &#37;}
 
 {% endraw %}
-## Reviewing and Testing {#testing}
+## Reviewing and testing {#testing}
 
 One of the most important things you can do before committing your changes is to test that everything looks and functions as it should. This can be done by running a `rake` command in your terminal.
 
@@ -182,7 +182,7 @@ Your page will be viewable at `http://localhost:4000/docs/partners/your_partner_
 
 Once you are done reviewing your edits, press Ctrl-C in the terminal, ending the rake command.
 
-## Commiting to Github {#committing}
+## Commiting to github {#committing}
 
 Once you have made the adequate changes to your partnership doc, save your document, and commit your changes. 
 
@@ -193,7 +193,7 @@ Within the Braze docs GitHub repository, you will be able to find your branch. I
 3. Provide any relevant information that can help the Braze documentation team confirm your changes, as well as your __Braze Product Manager__ so we can reach out to them to get in contact with you about your changes if needed.<br><br>
 4. After you are done making changes, tag @KellieHawks and @Timothy-Kim in a comment within the PR, and our team will take a look.<br><br>
 
-## Review Process {#review}
+## Review process {#review}
 
 The review process may take several days to a week to get approved. We understand other companies and writers may have a different writing style than we do at Braze, so we will need time to make sure it aligns with the Braze voice and the specific formatting that we use.
 

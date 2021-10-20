@@ -7,7 +7,7 @@ description: "This reference article covers how to implement uninstall tracking.
 tool: Reports
 
 ---
-# Uninstall Tracking
+# Uninstall tracking
 
 Braze's Uninstall Tracking provides the following details:
 
@@ -36,7 +36,7 @@ This time can be used to define a segment of users for win-back campaigns. Using
 
 ![Uninstall Segment][5]
 
-## App-Level Analysis
+## App-Level analysis
 
 Daily statistics on uninstalls are found on the **Overview** page. The visualization can be broken down by segment, similar to other statistics Braze provides. Set **View Statistics For** to "Usage Analytics", and then select "Uninstalls" from the dropdown to display the graph.
 
@@ -50,7 +50,7 @@ Apps without uninstall tracking enabled will report uninstalls from only a subse
 
 ![Uninstall Graph][3]
 
-## Uninstall Tracking for Campaigns
+## Uninstall tracking for campaigns
 
 Campaign Uninstall Tracking allows you to see the number of users who received a specific campaign and subsequently uninstalled your app within the selected time frame. This tool gives marketers insight into how campaigns may be encouraging unintended negative user behaviors and helps to measure overall campaign efficacy.
 

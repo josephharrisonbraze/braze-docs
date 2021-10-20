@@ -4,7 +4,7 @@ permalink: "/array_of_objects/"
 hidden: true
 ---
 
-# Array of Objects
+# Array of objects
 
 Use an array of objects to group related attributes. You may have a group of pet objects, song objects, and account objects that all belong to one user. These arrays of objects can be used to personalize your messaging with Liquid, or create audience segments if any element within an object matches the criteria.
 
@@ -21,9 +21,9 @@ Support for this feature depends on [nested custom attributes]({{site.baseurl}}/
 
 Updating or removing items in an array requires identifying the item by key and value. As such, consider including a unique identifier for each item in the array. The uniqueness is scoped only to the array and is useful if you want to update and remove specific objects from your array. This is not enforced by Braze.
 
-## Usage Examples
+## Usage examples
 
-### API Request Body
+### API request body
 
 {% tabs %}
 {% tab Create %}
@@ -167,7 +167,7 @@ The following example shows removing any object in the `pets` array that has an 
 {% endtab %}
 {% endtabs %}
 
-### Liquid Templating
+### Liquid templating
 
 You can use this `pets` array to personalize a message. The Liquid templating example below shows how to reference the custom attribute object properties saved from the above API request and use them in your messaging.
 
@@ -201,7 +201,7 @@ Or you might filter for pets that have a `type` of `dog`. Here a user has at lea
 
 ![Filter by pet type equals dog][2]
 
-## Data Points
+## Data points
 
 Data points are consumed differently depending on whether you create, update, or remove a property.
 

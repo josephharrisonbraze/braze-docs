@@ -11,7 +11,7 @@ There are a variety of publicly available APIs that can be used for Connected Co
 
 >  Public APIs can be subject to usage restrictions and rate limiting.  Be sure to read through API documentations and contact API providers about your intended use.
 
-### News and Information
+### News and information
 
 |	 API 	| Description |
 | --------- | --- |
@@ -20,7 +20,7 @@ There are a variety of publicly available APIs that can be used for Connected Co
 | [The Guardian API][9] | Provides Guardian article data which includes headline, topic, URL, date, abstract, etc.|
 {: .reset-td-br-1 .reset-td-br-2}
 
-### Events and Ticketing
+### Events and ticketing
 
 |	 API 	| Description |
 | --------- | --- |
@@ -31,7 +31,7 @@ There are a variety of publicly available APIs that can be used for Connected Co
 | [Ticketmaster][38] | Provides data on public events, venues, and prices |
 {: .reset-td-br-1 .reset-td-br-2}
 
-### Food & Drink
+### Food & drink
 
 |  API  | Description |
 | --------- | --- |
@@ -66,7 +66,7 @@ There are a variety of publicly available APIs that can be used for Connected Co
 | [Discogs][21] | Provides information on artists, labels, and recordings. |
 {: .reset-td-br-1 .reset-td-br-2}
 
-### Product Information
+### Product information
 
 |	 API 	| Description |
 | --------- | --- |

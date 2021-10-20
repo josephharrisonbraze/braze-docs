@@ -4,7 +4,7 @@ permalink: "/canvas_in-app_messages/"
 hidden: true
 ---
 
-# In-App Messages In Canvas
+# In-App messages in canvas
 
 {% include video.html id="6X8E20BlblI" align="right" %}
 
@@ -16,7 +16,7 @@ You can customize [when your message will expire](#in-app-message-expiration) an
 In-app messsages for Canvas is currently in beta. Please contact your Braze account manager if you are interested in participating in the beta.
 {% endalert %}
 
-## In-App Message Expiration
+## In-App message expiration
 
 In the in-app message composer, you have the option to choose when the in-app message will expire.
 
@@ -28,7 +28,7 @@ In the in-app message composer, you have the option to choose when the in-app me
 | `Message Expires By ...` | The second option allows you choose a specific date and time when the in-app message will longer be available. <br> <br> _For example, if you have a sale that ended at a specific date and time, you might select this option so that once the sale ends users no longer see the associated in-app message._ |
 {: .reset-td-br-1 .reset-td-br-2}
 
-### Use Cases
+### Use cases
 
 When should you use this feature? Braze highly recommends that you consider using this feature in your Promotional and Onboarding campaigns.
 
@@ -66,13 +66,13 @@ As you can see, the push messages are spaced around an in-app message to ensure 
   {% endtab %}
 {% endtabs %}
 
-## Advancement Behavior Options
+## Advancement behavior options
 
 Braze's Advancement Behavior feature allows you to choose the criteria for advancement through your Canvas step. [Steps with only in-app messages](#steps-with-in-app-messages-only) have different advancement options than [steps with multiple message types](#steps-with-multiple-message-channels) (push, email, etc.).
 
 Action-based delivery is __not available for Canvas steps with in-app messages__. Canvas steps with in-app messages __must be scheduled__. Instead, Canvas in-app messages will appear the first time that your user opens the app after the scheduled message in the Canvas step has been sent to them.
 
-### Steps with In-App Messages Only
+### Steps with In-App messages only
 
 Steps with in-app messages have specific advancement options that allow you to specify the exact situation when your message would be sent.
 
@@ -89,7 +89,7 @@ Steps with in-app messages have specific advancement options that allow you to s
 {% endalert %}
 
 
-### Steps with Multiple Channels
+### Steps with multiple channels
 
 ![iampush.png][3]
 

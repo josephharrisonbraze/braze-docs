@@ -9,7 +9,7 @@ channel:
   
 ---
 
-# High-Volume Sending
+# High-Volume sending
 
 Plan on doing some high-volume sending? We have some best practices for you to ensure it runs smoothly.
 

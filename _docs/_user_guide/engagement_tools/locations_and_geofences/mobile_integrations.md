@@ -8,9 +8,9 @@ tool: Location
 
 ---
 
-# Mobile Integrations
+# Mobile integrations
 
-## Cross-Platform Requirements
+## Cross-Platform requirements
 
 Geofence-triggered campaigns are available on iOS and Android. To support geofences:
 
@@ -24,7 +24,7 @@ Geofence-triggered campaigns are available on iOS and Android. To support geofen
 Starting with Braze SDK version 3.6.0 Braze location collection is disabled by default. To verify location collection is enabled on Android, ensure that `com_appboy_enable_location_collection` is set to `true` in your `braze.xml`.
 {% endalert %}
 
-## Geofence Configuration
+## Geofence configuration
 
 ### Latitude/Longitude
 
@@ -38,17 +38,17 @@ The radius of the geofence in meters, measured from the geographic center. We re
 
 Users receive geofence triggered notifications after performing enter or exit transitions on individual geofences.  After a transition occurs, there is a pre-defined period of time during which that user may not perform the same transition on that individual geofence again. This period of time is called the "cooldown" and is pre-defined by Braze. Its main purpose is to prevent unnecessary network requests.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ##### How do geofences affect battery life?
 
 Our geofencing solution uses the native geofence system service on iOS and Android and is tuned to intelligently trade off accuracy and power, ensuring best in class battery life and improvements in performance as the underlying service improves.
 
-##### How many geofences can I upload to Braze?
+##### How many geofences can i upload to braze?
 
 You may create or upload an unlimited amount of geofences on the Dashboard, allowing your marketing team to setup geofence sets and campaigns without needing to calculate numbers of geofences. However, each geofence set can hold a maximum of 10,000 geofences. Braze dynamically re-synchronizes the geofences that it tracks for each individual user, ensuring that the most relevant geofences to them are always available.
 
-##### Can I store more than X geofences?
+##### Can i store more than x geofences?
 
 Per Android's [documentation][3], Android apps may only store up to 100 geofences locally at a time. Braze is configured to store only up to 20 geofences locally per app. For geofences to work correctly, you should ensure that your App is not using all available geofence spots.
 

@@ -4,39 +4,39 @@ page_order: 2
 noindex: true
 ---
 
-# Styling Test Page
+# Styling test page
 
-## Header Test
+## Header test
 
 {% tabs %}
 {% tab Styling %}
 
-# H1 Banner
+# H1 banner
 H1 Text
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum.
 
-## H2 Banner
+## H2 banner
 H2 Text
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum.
 
-### H3 Banner
+### H3 banner
 H3 Text
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum.
 
-#### H4 Banner
+#### H4 banner
 H4 Text
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum.
 
-##### H5 Banner
+##### H5 banner
 H5 Text
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum.
 
-###### H6 Banner
+###### H6 banner
 H6 Text
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum.
@@ -45,27 +45,27 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectu
 {% tab Markdown %}
 
 ```
-# H1 Banner
+# H1 banner
 
-## H2 Banner
+## H2 banner
 
-### H3 Banner
+### H3 banner
 
-#### H4 Banner
+#### H4 banner
 
-##### H5 Banner
+##### H5 banner
 
-###### H6 Banner
+###### H6 banner
 ```
 {% endtab %}
 {% endtabs %}
 
-## Custom Header Anchor
+## Custom header anchor
 
 To add an anchor to a heading, add the following code to the end of the line that the heading is on. Replace `anchor-text` with the anchor for this heading. Use lowercase letters and put hyphens between words.
 
 ```
-# Heading Text {#anchor-text}
+# Heading text {#anchor-text}
 ```
 
 You can link to headings with custom anchors by creating a standard link with a number sign `#` followed by the custom anchor.
@@ -76,7 +76,7 @@ Here is my [link](#anchor-text)
 ```
 {% endraw %}
 
-## Font Test
+## Font test
 
 {% tabs %}
 {% tab Styling %}
@@ -107,16 +107,16 @@ _**Bold Emphasize**_
 {% endtab %}
 {% endtabs %}
 
-## Quote Test
+## Quote test
 
 {% tabs %}
 {% tab Styling %}
 > Quoted Text
 
-#### Inline Quote
+#### Inline quote
 Lorem ipsum dolor ``sit amet, consectetur adipiscing elit``. Sed nec tortor at lectus tempus tempor.
 
-#### Quote Chunk
+#### Quote chunk
 ```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor.
 ```
@@ -132,7 +132,7 @@ Lorem ipsum dolor ``sit amet, consectetur adipiscing elit``. Sed nec tortor at l
 {% endtab %}
 {% endtabs %}
 
-## Table Test
+## Table test
 
 {% tabs %}
 {% tab Styling %}
@@ -161,7 +161,7 @@ EU-01 | `https://dashboard.braze.eu` or<br> `https://dashboard-01.braze.eu` | `h
 {% endtab %}
 {% endtabs %}
 
-#### Resetting Table word-break by column
+#### Resetting table word-break by column
 For tables columns which word-break should be reset to the default style, use markdown options to add a class to the table using `.reset-td-br-1`, `.reset-td-br-2`, `.reset-td-br-3` , `.reset-td-br-4`, with the `#` corresponding to the column up to 4.
 
 #### Usage
@@ -195,7 +195,7 @@ For tables columns which word-break should be reset to the default style, use ma
 {% endtab %}
 {% endtabs %}
 
-## Link Test
+## Link test
 {% tabs %}
 {% tab Styling %}
 Link here: [Braze.com](https://www.braze.com){: height="36px" width="36px"}
@@ -207,20 +207,20 @@ Link here: [Braze.com](https://www.braze.com){: height="36px" width="36px"}
 {% endtab %}
 {% endtabs %}
 
-## Image Test
+## Image test
 {% tabs %}
 {% tab Styling %}
 Image: ![Logo]({{site.baseurl}}/assets/img/braze-logo-mark.png){: style="max-width:30%;"}
 
-#### Linked Image Test
+#### Linked image test
 
 Linked Image: [![Braze]({{site.baseurl}}/assets/img/braze-logo-mark.png){: style="max-width:30%;"}](https://www.braze.com)
 
-#### Image Styling
+#### Image styling
 
 ![Text]({% image_buster /assets/img/logo-braze-fa.svg %}){: style="max-width:30%; color: green" }
 
-#### Anchoring Images
+#### Anchoring images
 
 ![Text]({% image_buster /assets/img/logo-braze-fa.svg %}){: style="float:right;max-width:30%; color: green" }
 <br><br><br><br><br>
@@ -239,7 +239,7 @@ Linked Image: [![Braze]({{site.baseurl}}/assets/img/braze-logo-mark.png){: style
 {% endtab %}
 {% endtabs %}
 
-## Gallery Test
+## Gallery test
 {% tabs %}
 {% tab Styling %}
 {% gallery %}
@@ -265,7 +265,7 @@ Linked Image: [![Braze]({{site.baseurl}}/assets/img/braze-logo-mark.png){: style
 {% endtab %}
 {% endtabs %}
 
-## Interactive Image Test
+## Interactive image test
 {% tabs %}
 {% tab Styling %}
 <div class="iactiveImg" data-ii="6967"></div><script src="https://interactive-img.com/js/include.js"></script>
@@ -280,24 +280,24 @@ Linked Image: [![Braze]({{site.baseurl}}/assets/img/braze-logo-mark.png){: style
 <div style="position: relative; padding-bottom: 83%; padding-top: 0; height: 0;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-width:0px; max-width:100%; overflow-y:auto;" width="100%" height="100%" src="https://interactive-img.com/view?id=6967&iframe=true"></iframe></div>
 -->
 
-## Code Snippet Test
+## Code snippet test
 
 {% tabs %}
 {% tab Styling %}
-#### Code Test Objective C
+#### Code test objective c
 ```objc
 - (void)submitFeedback:(ABKFeedback * )feedback
  withCompletionHandler:(nullable void (^)(ABKFeedbackSentResult feedbackSentResult))completionHandler;
 ```
 
-#### Code Test Swift
+#### Code test swift
 ```swift
 Appboy.sharedInstance()?.submitFeedback(feedback) { (feedbackSentResult) in
       print("Feedback sent: (feedbackSentResult)")
     }
 ```
 
-#### Code Test Java
+#### Code test java
 ```java
 @Override
 public void onResume() {
@@ -308,7 +308,7 @@ public void onResume() {
 }
 ```
 
-#### Code Test json
+#### Code test json
 ```json
 {
    "attributes" : "Attributes" ,
@@ -317,7 +317,7 @@ public void onResume() {
 }
 ```
 
-#### Code Test JavaScript
+#### Code test JavaScript
 ```javascript
 appboy.subscribeToFeedUpdates(function(feed) {
   var cards = feed.cards;
@@ -326,7 +326,7 @@ appboy.subscribeToFeedUpdates(function(feed) {
 appboy.requestFeedRefresh();
 ```
 
-#### Pygments Test
+#### Pygments test
 ```python
 #!/usr/bin/python3
 
@@ -349,7 +349,7 @@ class Foo:
 {% endtab %}
 {% endtabs %}
 
-## Alert Test
+## Alert test
 
 {% tabs %}
 {% tab Styling %}
@@ -392,19 +392,19 @@ This is a update
 {% endtab %}
 {% endtabs %}
 
-## Embedded Video Test
+## Embedded video test
 {% tabs %}
 {% tab Styling %}
-#### Embedded Video/YouTube
+#### Embedded video/youtube
 Defaults to youtube embedded.
 {% include video.html id="XY5uXoKIvFY" %}
 
-#### Embedded Video Right Align
+#### Embedded video right align
 {% include video.html id="XY5uXoKIvFY" align="right" %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum.
 
-#### Embedded Video Left Align
+#### Embedded video left align
 {% include video.html id="XY5uXoKIvFY" align="left" %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor at lectus tempus tempor. Suspendisse tellus diam, finibus eu dictum non, varius et ipsum.
@@ -429,7 +429,7 @@ To align right or left, and limit max width to 50% use the `align` parameter = `
 {% endtab %}
 {% endtabs %}
 
-#### Featured Video Layout with Status Placement for Higher Resolution
+#### Featured video layout with status placement for higher resolution
 To use the featured video layout which places a static video on the left side
 for higher resolution display, add a video_id and a video_type ie `youtube` to
 the yaml header for the page.
@@ -443,7 +443,7 @@ video_source: youtube
 ```
 {% endraw  %}
 
-## List Test
+## List test
 {% tabs %}
 {% tab Styling %}
 #### Bullet
@@ -496,11 +496,11 @@ video_source: youtube
 {% endtab %}
 {% endtabs %}
 
-## Collapsible Content Test
+## Collapsible content test
 {% tabs %}
 {% tab Styling %}
 {% details Click me to Expand %}
-#### Look a Hidden Code Block!
+#### Look a hidden code block!
 
 ```python
 print("hello world!")
@@ -518,9 +518,9 @@ print("hello world!")
 {% endtab %}
 {% endtabs %}
 
-## Tab Test
+## Tab test
 
-#### Custom Tabs
+#### Custom tabs
 
 {% tabs local %}
 {% tab OBJECTIVE-C %}
@@ -583,7 +583,7 @@ Content of swift
 ```
 {% endraw %}
 
-#### Local Tabs
+#### Local tabs
 For self-contained tabs, i.e. tabs that only change the tab content for the specific section, then use the local parameter in the parent tabs block.
 
 {% raw %}

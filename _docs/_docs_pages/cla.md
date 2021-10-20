@@ -4,7 +4,7 @@ permalink: cla/
 layout: documents
 
 ---
-# CONTRIBUTION LICENSE AGREEMENT
+# CONTRIBUTION license agreement
 
 This Contribution License Agreement (this "Agreement"), effective as of the last date beneath the parties’ signature below (the "Effective Date"), is entered into by Braze, Inc., a Delaware corporation having its principal place of business at 330 W 34th St, New York, NY 10001 ("Braze"), and the party signing below ("You").
 

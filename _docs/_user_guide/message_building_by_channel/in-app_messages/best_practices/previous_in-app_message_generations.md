@@ -9,7 +9,7 @@ noindex: true
 
 ---
 
-# Message Type Details
+# Message type details
 
 {% alert important %}
 This section reviews previous information around our in-app messages. To see the most up-to date information on our current in-app message generation, see our [new in-app message overview documentation]({{site.baseurl}}/user_guide/message_building_by_channel/in-app_messages/).
@@ -125,7 +125,7 @@ __Customizable Features__
 This will review previous information around our in-app message creative specifications. To see the most up-to date information on our current in-app message generation, see our [Creative Specs documentation]({{site.baseurl}}/user_guide/message_building_by_channel/in-app_messages/creative_details/).
 
 
-## Character and Image Limits:
+## Character and image limits:
 
 | Type                               | Aspect Ratio | Recommended Image Size | Max Image Size |   File Types  | Max Character Count |
 |------------------------------------|:------------:|:----------------------:|:--------------:|:-------------:|:-------------------:|
@@ -139,7 +139,7 @@ This will review previous information around our in-app message creative specifi
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3  .reset-td-br-4}
 
 
-## Keeping In-App Message File Sizes Small
+## Keeping In-App message file sizes small
 
 Braze recommends you keep your images, and HTML assets zips as small as possible for several reasons:
 
@@ -152,10 +152,10 @@ The following strategies are helpful for keeping file sizes down:
 - Ensure no extraneous or duplicative CSS or JS are included in your HTML asset zips.
 - Use [ImageOptim][25] on all images to compress images to their minimum possible size with no reduction in quality.
 
-### iPhone 5 Specs:
+### iPhone 5 specs:
 ![iPhone 5 Specs][18]
 
-### iPhone 6 Specs:
+### iPhone 6 specs:
 ![iPhone 6 Specs][19]
 
 

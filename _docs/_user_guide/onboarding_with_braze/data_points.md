@@ -7,13 +7,13 @@ description: "This reference article outlines what Data Points are at Braze and 
 
 ---
 
-# Data Points
+# Data points
 
 At Braze, data means action: each piece of data that arrives in Braze updates segment membership, can trigger & cancel messaging, is immediately available for messaging personalization, and more. As such, data points are Braze’s way of defining a billing and pricing structure, based on pieces of information logged against user profiles. See [Consumption Count](#consumption-count) below to see what data counts toward your data point allocation.
  
 Our Customer Success team can help recommend data best practices to fit your specific needs. You can find a more detailed breakdown of this definition in your Braze contract.
 
-## Management & Usage
+## Management & usage
 
 To view your Data Point Dashboard, select your name in the top-right corner, click the drop down, and select __Subscriptions and Usage__. For more information on the Data Point Dashboard components, check out our subscription and usage [article]({{site.baseurl}}/user_guide/onboarding_with_braze/subscription_and_usage/). 
 
@@ -24,7 +24,7 @@ To prevent using up your allocated data points, we recommend setting up a progra
 {% endalert %}
 
 
-## Consumption Count
+## Consumption count
 
 In sum, data points are accumulated when a user's profile data is updated or when they perform specific actions. Essentially, data points are counts of each of your users' `session starts`, `session ends`, `events`, and `purchases`.
 
@@ -123,7 +123,7 @@ You can find a breakdown of how Braze accumulates data points below, but there a
  {% endtab %}
 {% endtabs %}
 
-### Special Circumstances
+### Special circumstances
 
 #### CSV
 

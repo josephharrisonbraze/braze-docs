@@ -8,11 +8,11 @@ channel: email
 
 ---
 
-# Email Guidelines & Tips
+# Email guidelines & tips
 
 > This article covers technical, styling, and content-specific tips and tricks for various email use cases and topics.
 
-## Technical Guidelines
+## Technical guidelines
 
 ### General
 
@@ -25,7 +25,7 @@ channel: email
 - Don’t use JavaScript because it does not work with any ESP.
 - Braze improves load times by using a global CDN to host all email images.
 
-### Email Validation
+### Email validation
 
 Braze automatically adjusts inputted email addresses to trim any whitespace. Email addresses targeted via the Braze servers must be validated per the [RFC 2822][24] standards.
 In addition to these standards, Braze does not accept certain characters (noted below) and recognizes them as invalid.
@@ -51,7 +51,7 @@ If an email is bounced, Braze marks the email as invalid and the subscription st
 - ,
 {% enddetails %}
 
-### Disallowed HTML Tags
+### Disallowed HTML tags
 
 The following HTML tags are disallowed as they may potentially let malicious code run in the browser. As a result, end-user mail clients often filter emails that contain them.
 - `<!doctype>`
@@ -215,17 +215,17 @@ The following HTML attributes are disallowed as well:
 - `<seeksegmenttime>`
 - `<transitionend>`
 
-### Implementing 'ALT' Tags
+### Implementing 'alt' tags
 
 Since spam filters watch for both an HTML and a plain text version of a message, utilizing plain text alternatives is a great way to lower your spam score. In addition, ALT texts can serve to complement and in some cases stand in lieu of images included in your email body that may have been filtered out by a user's email provider.
 
-### Setting From and Reply-To Addresses
+### Setting from and reply-to addresses
 
 When setting your "From" addresses, make sure your "From" email domain, matches your sending domain (i.e. `marketing.yourdomain.com`), failure to do this may result in SPF and DKIM misalignment. All reply-to emails can be set to your root domain. 
 
-## Styling Tips
+## Styling tips
 
-### Address Styling
+### Address styling
 
 - The **Subject Line** is one of the first things that recipients will see upon receiving your message.
   - Keeping it to 6 to 10 words will yield the highest open rates.
@@ -238,7 +238,7 @@ When setting your "From" addresses, make sure your "From" email domain, matches 
   - If using a person’s name suits your company methods of personalizing email, stay consistent and retain the same “From Name” to develop a relationship with the recipient.
   -  “From” name should be no more than 25 characters to display appropriately on mobile.
 
-### Body Styling
+### Body styling
 
 - Many users use **Email Previewing**, either in Gmail or Outlook.
   - These preview areas generally allow for around 300 pixels or 85 characters of content to be shown.
@@ -256,7 +256,7 @@ When setting your "From" addresses, make sure your "From" email domain, matches 
 
   - The amount of visible preheader text is dependent on the User's email client and the length of the email's subject line. Generally, we suggest email preheaders to be between 50 and 100 characters.
 
-### Preheader Character Limits
+### Preheader character limits
 
   |   Mobile Email Client  |  Limit  |
   |:----------------------:|:-------:|
@@ -304,7 +304,7 @@ When setting your "From" addresses, make sure your "From" email domain, matches 
   - Short concise body copy
   - Clear calls to action
 
-### Email Size
+### Email size
 
 |   Text Only   | Text With Images |     Email Width    |
 |:-------------:|:----------------:|:------------------:|
@@ -315,7 +315,7 @@ Make sure to limit your **Body Size**: Large E-Mail bodies (larger than 102kb) a
 
 If you are receiving this error in the editor, you likely have base64 encoded images that have been embedded in the email itself. This is not an effective way to send emails with images. We highly encourage you to use Braze's image uploader to host images and to reference these images by href.
 
-### Text Length
+### Text length
 
 **Text Specifications** | **Recommended Properties**
 --- | ---
@@ -324,7 +324,7 @@ Sender Name Length | 25 characters maximum (for optimal mobile display)
 Pre-Header Length | 85 characters maximum
 {: .reset-td-br-1 .reset-td-br-2}
 
-### Image Size
+### Image size
 
 |     Size    | Header Image Width |  Body Image Width  |   File Types  |
 |:-----------:|:------------------:|:------------------:|:-------------:|
@@ -333,11 +333,11 @@ Pre-Header Length | 85 characters maximum
 
 Smaller, high quality images will load faster, so it’s recommended to use the smallest asset possible to achieve your desired output.
 
-### Deep Linking
+### Deep linking
 
 A high percentage of emails are read on mobile devices. Utilizing deep linking is a great practice for engaging with these mobile email recipients. With push notifications and in-app messages, a deep link takes the user directly to a specified destination within an app. Email, on the other hand, gives no way of knowing whether recipients have the app installed. As such, providing a deep link to the app could link to an error message for these recipients who do not have the app.
 
-## Content-Specific Tips & Tricks
+## Content-Specific tips & tricks
 
 ### Onboarding
 
@@ -348,7 +348,7 @@ A high percentage of emails are read on mobile devices. Utilizing deep linking i
 
 ![LivingSocial email][26]{: style="max-width:70%;"}
 
-### Sales and Promotional
+### Sales and promotional
 
 - Within seconds of opening your email, users should know the value of the promotion (what the discounts are and what is on sale) and how long the offer lasts.
 - Provide graphics to illustrate any products that you're promoting.

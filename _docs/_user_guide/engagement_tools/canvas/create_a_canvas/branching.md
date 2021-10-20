@@ -12,7 +12,7 @@ tool: Canvas
 
 > This reference article covers what branching is, and how it can be useful in your Canvases.
 
-## Create a Branch
+## Create a branch
 
 You can harness the power of Braze’s action-based delivery and powerful realtime segmentation to deliver personalized experiences for your users.
 
@@ -34,7 +34,7 @@ Or you can have users flow between branches based upon actions that they take.
 
 ## Warnings
 
-### Overlapping Filters
+### Overlapping filters
 
 When setting up your Canvas, you should ensure that the Filters that you use to split users down different branches do not overlap. If a user can match multiple steps, Braze will pick a branch to send them down. For example:
 

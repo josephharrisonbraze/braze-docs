@@ -11,7 +11,7 @@ tool:
   
 ---
 
-# Conversion Correlation
+# Conversion correlation
 
 > The Conversion Correlation analysis on the Campaign Analytics page gives you insight into what user attributes and behaviors help or hurt the outcomes you set for campaigns. 
 
@@ -43,7 +43,7 @@ Finally, we check several behavioral variables that can take on multiple values.
 - Total dollars spent
 - Number of sessions
 
-## When can I check this analysis?
+## When can i check this analysis?
 
 This analysis becomes available at least 24 hours after a campaign starts sending and only looks at sends that occurred in the last 30 days. If no behaviors or attributes significantly correlate with any of the campaign's conversion events, the dropdown will be disabled and a message will be displayed letting you know that's the case.
 

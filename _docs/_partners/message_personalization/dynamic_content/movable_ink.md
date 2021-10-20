@@ -9,7 +9,7 @@ search_tag: Partner
 
 ---
 
-# Movable Ink
+# Movable ink
 
 > [Movable Ink][1] is a cloud-based software platform that offers digital marketers a way to create compelling and unique visual experiences that move customers. The Movable Ink Platform provides valuable customization options that can easily be inserted into your campaigns. 
 
@@ -17,7 +17,7 @@ Expand Braze's creative capabilities by leveraging Intelligent Creative features
 
 ## Integration
 
-### Integration Requirements
+### Integration requirements
 
 - An active Movable Ink account.
 - Data Source connected to Movable Ink.
@@ -41,7 +41,7 @@ Intelligent Creative has many offerings that Braze users can take advantage of. 
 || Video | ✔* | ✔* | * Animated GIFs only, <br>For Android, Braze requires [GIF support][GIFsupport] in implementation |
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3  .reset-td-br-4}
 
-### Use Cases
+### Use cases
 - Personalized monthly or end of year recaps.
 - Dynamically personalize images for email, push, or rich notifications based on last known behavior.<br>
 	For Example: 
@@ -49,9 +49,9 @@ Intelligent Creative has many offerings that Braze users can take advantage of. 
 	- Using the Countdown Timer feature to notify users when a big sale is approaching (e.g Black Friday, Valentine's Day, Holiday Deals, etc.)
 	- Use the Scratch Off feature as a fun and interactive way to disburse Promo Codes.
 
-## Implementation Process
+## Implementation process
 
-### Step 1: Create a Data Source for Movable Ink
+### Step 1: create a data source for movable ink
 
 Customers will need to create a data source that can either be a CSV, Website Import, or API Integration.
 
@@ -78,7 +78,7 @@ Customers will need to create a data source that can either be a CSV, Website Im
 {% endtab %}
 {% endtabs %}
 
-### Step 2: Create a Campaign on the Movable Ink Platform
+### Step 2: create a campaign on the movable ink platform
 
 1. ![create_campaign]({% image_buster /assets/img/movable_ink/movable_ink5.png %}){: style="float:right;max-width:40%;margin-left:15px;"}
 From the Movable Ink home screen, you can choose to create a campaign. You can select from either Email from HTML, Email from Image, or a Block that can be used in any channel including Push, In-App Message, and Content Cards (suggested).
@@ -87,7 +87,7 @@ We also suggest taking a look at the various content options available through c
 
 Once complete, you should be able to generate a dynamic URL that you can then insert into Braze!
 
-### Step 3: Obtain Movable Ink Content URL
+### Step 3: obtain movable ink content url
 
 To include Movable Ink content into Braze messages, you must locate the source URL movable ink has provided you. 
 
@@ -97,9 +97,9 @@ To obtain the source URL, you must have set up the content in the Movable Ink Da
 3. In the Braze Platform, paste the URL in the appropriate field. Check out the next step to see appropriate fields. 
 4. Be sure to replace any merge tags (i.e. {% raw %}```&mi_u=%%email%%```{% endraw %}) with the corresponding Liquid variable (i.e. {% raw %}```&mi_u={{${email_address}}}```{% endraw %}).
 
-### Step 4: Braze Experience
+### Step 4: Braze experience
 
-#### Push Notifications
+#### Push notifications
 
 1. In the Braze Platform:
 	- __Android Push__: Paste the URL in the __Push Icon Image__ and __Expanded Notification Image__ fields.
@@ -107,7 +107,7 @@ To obtain the source URL, you must have set up the content in the Movable Ink Da
 	- __Web Push__: Paste the URL in the __Push Icon Image__ and __Large Notification Image__ fields.
 2. In order to make sure images are not cached, prepend the URL in the message with empty Liquid tags: <br>{% raw %}```{% if true %}{% endif %}https://movable-ink-image-url-goes-here```{% endraw %}
 
-#### In-App Messages and Content Cards
+#### In-App messages and content cards
 
 1. In Braze’s platform, paste the URL in the __Rich Notification Media__ field.
 2. __Provide a Unique URL to help Prevent Caching.__ To ensure that Movable Ink’s real-time images work and will not be affected by caching, use Liquid to append a timestamp to the end of the Movable Ink image URL. <br> To do this, use the following syntax, replacing the image URL as needed:<br>{% raw %} ```{% assign timestamp = "now" | date: "%s" %}``` <br> ```{% assign img = "https://movable-ink-image-url-goes-here" |  append:timestamp %} {{img}}``` {% endraw %} <br>This template will take the current time (in seconds), append it to the end of the Movable Ink image tab (as a query param), and then output the final result. You can preview it's working with the "Test" tab on the right of the Compose tab - this will evaluate the code and show a preview.

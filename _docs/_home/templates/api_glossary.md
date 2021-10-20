@@ -42,7 +42,7 @@ noindex: true
 excerpt_separator: ""
 ---
 {% api %}
-## 1 Create Email Template
+## 1 create email template
 {% apimethod post %}
 /templates/email/create
 {% endapimethod %}
@@ -57,7 +57,7 @@ The response from this endpoint includes a field for `email_template_id`, which 
 {% apiref swagger %}https://www.braze.com/docs/api/interactive/ {% endapiref %}
 {% apiref postman %}https://www.getpostman.com/ {% endapiref %}
 
-#### REQUEST BODY
+#### REQUEST body
 ```
 {
   "template_name": "email_template_name",
@@ -69,7 +69,7 @@ The response from this endpoint includes a field for `email_template_id`, which 
 
 ```
 
-#### SAMPLE RESPONSE
+#### SAMPLE response
 ```
 {
   "template_name": "email_template_name",
@@ -81,7 +81,7 @@ The response from this endpoint includes a field for `email_template_id`, which 
 ```
 
 
-#### PARAMETER DETAILS
+#### PARAMETER details
 
 | Parameter | Required | Data Type | Description |
 |---|---|---|---|
@@ -94,7 +94,7 @@ The response from this endpoint includes a field for `email_template_id`, which 
 
 {% endapi %}
 {% api %}
-## 2 List Available Email Template
+## 2 list available email template
 {% apimethod get %}
 /templates/email/list
 {% endapimethod %}
@@ -107,7 +107,7 @@ Use the endpoints below to get a list of available templates.
 {% apiref swagger %}https://www.braze.com/docs/api/interactive/ {% endapiref %}
 {% apiref postman %}https://www.getpostman.com/ {% endapiref %}
 
-#### REQUEST BODY
+#### REQUEST body
 ```
 GET https://YOUR_REST_API_URL/templates/email/list
 
@@ -122,7 +122,7 @@ GET https://YOUR_REST_API_URL/templates/email/list
 
 ```
 
-#### SAMPLE RESPONSE
+#### SAMPLE response
 ```
 GET https://YOUR_REST_API_URL/templates/email/list
 
@@ -137,7 +137,7 @@ GET https://YOUR_REST_API_URL/templates/email/list
 ```
 
 
-#### PARAMETER DETAILS
+#### PARAMETER details
 
 | Parameter | Required | Data Type | Description |
 |---|---|---|---|
@@ -148,7 +148,7 @@ GET https://YOUR_REST_API_URL/templates/email/list
 
 
 {% api %}
-## 3 Campaigns Trigger Send
+## 3 campaigns trigger send
 {% apimethod post %}campaigns/trigger/send{% endapimethod %}
 {% apitags %}Post, Campaigns, Trigger,Send{% endapitags %}
 
@@ -157,7 +157,7 @@ API-Triggered Delivery allows you to house message content inside of the Braze d
 {% apiref swagger %}https://www.braze.com/docs/api/interactive/ {% endapiref %}
 {% apiref postman %}https://www.getpostman.com/ {% endapiref %}
 
-#### REQUEST BODY
+#### REQUEST body
 ```
 POST https://YOUR_REST_API_URL/campaigns/trigger/send
 Content-Type: application/json
@@ -182,7 +182,7 @@ Authorization: Bearer YOUR-REST-API-KEY
 
 ```
 
-#### SAMPLE RESPONSE
+#### SAMPLE response
 ```
 POST https://YOUR_REST_API_URL/canvas/trigger/send
 Content-Type: application/json
@@ -206,7 +206,7 @@ Authorization: Bearer YOUR-REST-API-KEY
 ```
 
 
-#### PARAMETER DETAILS
+#### PARAMETER details
 
 | Parameter | Required | Data Type | Description |
 |---|---|---|---|
@@ -217,7 +217,7 @@ Authorization: Bearer YOUR-REST-API-KEY
 
 
 {% api %}
-## 4 Campaigns Trigger Send
+## 4 campaigns trigger send
 {% apimethod put %}users/track{% endapimethod %}
 {% apitags %}PUT, Campaigns, Trigger, Send{% endapitags %}
 
@@ -226,7 +226,7 @@ This endpoint can be used to record custom events, user attributes, and purchase
 {% apiref swagger %}https://www.braze.com/docs/api/interactive/ {% endapiref %}
 {% apiref postman %}https://www.getpostman.com/ {% endapiref %}
 
-#### REQUEST BODY
+#### REQUEST body
 ```
 POST https://YOUR_REST_API_URL/users/track
 Content-Type: application/json
@@ -239,7 +239,7 @@ Authorization: Bearer YOUR-REST-API-KEY
 
 ```
 
-#### SAMPLE RESPONSE
+#### SAMPLE response
 ```
 {
   // One of "external_id" or "user_alias" or "braze_id" is required
@@ -265,7 +265,7 @@ Authorization: Bearer YOUR-REST-API-KEY
 }
 ```
 
-#### PARAMETER DETAILS
+#### PARAMETER details
 
 | User Profile Field | Data Type Specification |
 | ---| --- |

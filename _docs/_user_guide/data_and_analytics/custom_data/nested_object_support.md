@@ -12,7 +12,7 @@ description: "This reference article describes nested object support for custom 
 This feature is generally available, however triggering messages and segmenting users based on this data is in early access. For more information, please reach out to your Braze account manager.
 {% endalert %}
 
-# Nested Object Support for Custom Event Properties
+# Nested object support for custom event properties
 
 Nested Object Support allows you to send nested JSON data as properties of custom events and purchases. This nested data can be used for templating personalized information in messages, for triggering message sends, and for segmentation.
 
@@ -24,9 +24,9 @@ Nested Object Support allows you to send nested JSON data as properties of custo
 
 {% sdk_min_versions web:3.3.0 ios:4.3.1 android:1.0.0 %}
 
-## Usage Examples
+## Usage examples
 
-### API Request Body
+### API request body
 
 {% tabs %}
 {% tab Music Example %}
@@ -79,7 +79,7 @@ Shown below is a `/users/track` example with an "Ordered" custom event. Once an 
 {% endtab %}
 {% endtabs %}
 
-### Liquid Templating
+### Liquid templating
 
 The Liquid templating examples below show how to reference the nested properties saved from the above API request and use them in your Liquid messaging. Using Liquid and dot notation, traverse the nested data to find the specific node you would like to include in your messages.
 
@@ -103,7 +103,7 @@ Templating in Liquid in a message triggered by the "Ordered" event:
 {% endtab %}
 {% endtabs %}
 
-### Message Triggering
+### Message triggering
 
 To use these properties to trigger a campaign, select your custom event or purchase, and add a __Nested Property__ filter. Note that message triggering is not yet supported for in-app messages.
 
@@ -133,7 +133,7 @@ Triggering a campaign with nested properties from the "Ordered" event:
 
 Use [Segment Extensions]({{site.baseurl}}/user_guide/engagement_tools/segments/segment_extension/) to segment users based on nested event properties. Segmentation uses the same notation as triggering (described above).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Does this consume additional data points?
 

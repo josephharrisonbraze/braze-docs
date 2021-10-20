@@ -8,7 +8,7 @@ platform: xamarin
 
 ---
 
-# About Xamarin
+# About xamarin
 
 > Xamarin is an app development platform that empowers developers to build, test, and monitor consumer and enterprise applications.
 
