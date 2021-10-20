@@ -55,7 +55,7 @@ The code to include our service worker can be found in our [Github Repo](https:/
 Your web server must return a `Content-Type: application/javascript` when serving your Service Worker file. 
 {% endalert %}
 
-### What if i can't register a service worker in the root directory?
+### What if I can't register a service worker in the root directory?
 
 By default, a Service Worker can only be used within the same directory it is registered in. For example, if your Service Worker file exists in `/assets/service-worker.js`, then it would only be possible to register it within `example.com/assets/*` or a subdirectory of the `assets` folder, but not on your homepage (`example.com/`). For this reason, it is recommended to host and register the Service Worker in the root directory (i.e. `https://example.com/service-worker.js`).
 

@@ -44,11 +44,11 @@ Users receive geofence triggered notifications after performing enter or exit tr
 
 Our geofencing solution uses the native geofence system service on iOS and Android and is tuned to intelligently trade off accuracy and power, ensuring best in class battery life and improvements in performance as the underlying service improves.
 
-##### How many geofences can i upload to braze?
+##### How many geofences can I upload to braze?
 
 You may create or upload an unlimited amount of geofences on the Dashboard, allowing your marketing team to setup geofence sets and campaigns without needing to calculate numbers of geofences. However, each geofence set can hold a maximum of 10,000 geofences. Braze dynamically re-synchronizes the geofences that it tracks for each individual user, ensuring that the most relevant geofences to them are always available.
 
-##### Can i store more than x geofences?
+##### Can I store more than x geofences?
 
 Per Android's [documentation][3], Android apps may only store up to 100 geofences locally at a time. Braze is configured to store only up to 20 geofences locally per app. For geofences to work correctly, you should ensure that your App is not using all available geofence spots.
 

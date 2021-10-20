@@ -43,7 +43,7 @@ Finally, we check several behavioral variables that can take on multiple values.
 - Total dollars spent
 - Number of sessions
 
-## When can i check this analysis?
+## When can I check this analysis?
 
 This analysis becomes available at least 24 hours after a campaign starts sending and only looks at sends that occurred in the last 30 days. If no behaviors or attributes significantly correlate with any of the campaign's conversion events, the dropdown will be disabled and a message will be displayed letting you know that's the case.
 

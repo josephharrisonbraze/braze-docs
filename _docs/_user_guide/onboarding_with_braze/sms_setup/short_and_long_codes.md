@@ -107,7 +107,7 @@ Besides these differences, know that a brand will usually have one short code, b
 Wondering what shared short codes are all about? To learn more about why we recommend moving away from shared short codes, visit the topic in our [SMS FAQ]({{site.baseurl}}/user_guide/message_building_by_channel/sms/faqs/#what-are-shared-short-codes). 
 {% endalert %}
 
-## How do i get a short code?
+## How do I get a short code?
 
 Going through the short code application process can be a long process. However, it can be a worthwhile one! If you'd like a short code, reach out to your onboarding manager or other Braze representative and let them know. After you do, they'll ask for some basic information that will help you qualify, and apply for you. 
 

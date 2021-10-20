@@ -16,7 +16,7 @@ IP Warming is the practice of getting email inbox providers used to receiving me
 
 IP Warming is designed to help you establish a positive reputation with ISPs (Internet Service Providers). Every time a new IP address is used to send an email, ISPs programmatically monitor those emails to verify that it isn't being used to send spam to users.
 
-## What if i don't have time to warm ips?
+## What if I don't have time to warm ips?
 
 __IP Warming is required.__ If you fail to warm IPs appropriately, and the pattern of your email causes any suspicion, any or all of the following may happen:
 

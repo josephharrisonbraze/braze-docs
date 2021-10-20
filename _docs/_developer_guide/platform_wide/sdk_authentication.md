@@ -377,7 +377,7 @@ Data is available in real-time, and you can hover over points in the chart to se
 
 ## Frequently asked questions {#faq}
 
-#### Can i use this feature on only some of my apps? {#faq-app-by-app}
+#### Can I use this feature on only some of my apps? {#faq-app-by-app}
 
 Yes, this feature can be enabled for specific apps and doesn't need to be used on all of your apps.
 
@@ -387,7 +387,7 @@ When you begin to enforce this feature, requests made by older app versions will
 
 If possible, you should push users to upgrade as you would for any other mandatory upgrade. Alternatively, you can keep the feature ["optional"][6] until you see that an acceptable percentage of users have upgraded.
 
-#### What expiration should i use when generating jwt tokens? {#faq-expiration}
+#### What expiration should I use when generating jwt tokens? {#faq-expiration}
 
 We recommend using the higher value of: average session duration, session cookie/token expiration, or the frequency at which your application would otherwise refresh the current user's profile.
 
@@ -395,7 +395,7 @@ We recommend using the higher value of: average session duration, session cookie
 
 Should a user's token expire mid-session, the SDK has a [callback function][7] it will invoke to let your app know that a new JWT token is needed to continue sending data to Braze.
 
-#### What happens if my server-side integration breaks and i can no longer create a jwt? {#faq-server-downtime}
+#### What happens if my server-side integration breaks and I can no longer create a jwt? {#faq-server-downtime}
 
 If your server is not able to provide JWT tokens or you notice some integration issue, you can always disable the feature in the Braze dashboard.
 

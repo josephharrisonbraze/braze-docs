@@ -32,7 +32,7 @@ Braze will automatically determine a user’s time zone from their device. This 
 
 To check your company’s time zone, look at your [Company Settings]({{site.baseurl}}/user_guide/administrative/manage_your_braze_users/company-wide_settings_management/) on the dashboard. Click on your name in the top toolbar and then click **Company Settings**.
 
-### How do i schedule a local time zone campaign?
+### How do I schedule a local time zone campaign?
 
 When scheduling a campaign, you need to choose to send it at a designated time, and then check **Send campaign to users in their local time zone**.
 
@@ -57,7 +57,7 @@ Target segments for local time zone campaigns should include at least a 48-hour 
 
 Local time zone delivery may miss users in this segment based on the delivery time and the users’ local time zone. This is because a user can leave the segment by the time their time zone triggers delivery.
 
-### What changes can i make to scheduled campaigns ahead of launch?
+### What changes can I make to scheduled campaigns ahead of launch?
 
 When the campaign is scheduled, edits to anything other than the message composition need to be made before we enqueue the messages to send. As per all campaigns, you can’t edit conversion events after it is launched.
 
@@ -73,14 +73,14 @@ For Canvas entries, refer to above. For Canvas steps:
 - **Local Send Time campaigns**—can be edited up to 24 hours prior to the scheduled send time.
 - **Optimal Send Time campaigns**—can be edited up to 24 hours prior to the day the campaign is scheduled to send on.
 
-### What if i make an edit within the "safe zone"?
+### What if I make an edit within the "safe zone"?
 
 Changing the send time on campaigns within this time can lead to undesired behavior, for example:
 
 - Braze will not send messages to any users that have missed the send time by more than 1 hour.
 - Pre-enqueued messages may still send at the originally enqueued time, rather than the adjusted time.
 
-### What should i do if the "safe zone" has already passed?
+### What should I do if the "safe zone" has already passed?
 
 To ensure campaigns operate as desired, we recommend stopping the current campaign (this will abort any enqueued messages). You can then duplicate the campaign, making the changes as necessary and launch the new campaign. You may need to exclude users from this campaign who have already received the first campaign.
 
